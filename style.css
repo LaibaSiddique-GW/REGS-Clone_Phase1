@@ -1,0 +1,142 @@
+/* Error and success text colors */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: blue;
+    font-weight: 600;
+}
+
+/* The Navigation Bar on the Top */
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    /* margin-bottom: 500px; */
+    padding: 0; 
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    background-color: #0190DB;
+    border: 1px solid #0073aa;
+}
+
+.nav_bar_elements {
+    float: left; 
+    display: block;
+    padding: 14px 20px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    /* background-color: lightcyan; */
+}
+
+.nav_bar_elements:link, .nav_bar_elements:active, .nav_bar_elements:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar_elements:hover {
+    background-color: #d9d0bb;
+    text-decoration: underline;
+}
+
+.nav_bar_elements:active {
+    background-color: #e3dccc;
+    text-decoration: underline;
+}
+
+.nav_bar_elements:last-child {
+    float: right;
+}
+
+#nav_bar_active_element {
+    background-color:#1caed6;
+}
+
+#nav_bar_active_element:hover{
+    background-color: #d9d0bb;
+    text-decoration: underline;
+}
+
+#nav_bar_active_element:active {
+    background-color: #e3dccc;
+    text-decoration: underline;
+}
+
+/* Dont show links */
+.dont_show_link {
+    text-decoration: none;
+    color: black;
+}
+
+/* The Header Below the Navigation Bar */
+.top_header {
+    /* padding: 80px; */
+    /* font-family: Shrikhand, serif; */
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Used to hide or show elements*/
+.hidden {
+    display: none;
+}
+
+/* The font and background color for the whole page */
+.whole_page {
+    /* background-color: rgb(222, 245, 245); */
+    font-family: serif;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.center_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0;
+    padding: 0; */
+}
+.single_center_box {
+    list-style-type: none;
+    text-align: left;
+    /* margin:auto; */
+    padding: 5px 25px;
+    background-color: #f0eade;
+    border: 2px solid #b19c6b;
+    box-shadow: 2px 2px 2px 1px rgba(155, 152, 93, 0.6);
+}
+
+/* To center things (text) horizontally on page */
+.center_h {
+    text-align: center;
+} 
+
+/* Make tables look at least a bit better */
+table {
+    /* font-family: arial, sans-serif; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.important_note {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text_allign_center {
+    text-align: center;
+}
